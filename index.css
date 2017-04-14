@@ -1,0 +1,31 @@
+#bg{
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: -1;
+	min-width: 100%;
+	min-height: 100%;
+	margin: 0;
+	background: url('star.jpg') no-repeat center center fixed;
+	-webkit-background-size: cover;
+}
+
+#enter{
+	position: absolute;
+	top: 30%;
+	left: 38%;
+}
+
+@keyframes ex {
+    from   {left:-200px;top: 100%}
+    to  {left:15%;top: 50%}
+    }
+
+#enter1{
+  animation-name:ex;
+  animation-duration:2s;
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  left: 15%;
+}
